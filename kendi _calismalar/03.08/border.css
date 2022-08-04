@@ -1,0 +1,10 @@
+.p1 {
+  border-width: 3px 10px 15px 20px;
+  border-style: solid;
+  border-color: green yellow rebeccapurple fuchsia;
+}
+.p2 {
+  border: 5px dashed red;
+}
+.p3 {
+}
