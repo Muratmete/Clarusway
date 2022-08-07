@@ -1,0 +1,26 @@
+h2 {
+  text-align: center;
+}
+
+#par1 {
+  color: blue;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Cabin Sketch", cursive;
+}
+#par2 {
+  color: rgba(255, 0, 0, 1);
+  text-align: right;
+  text-transform: uppercase;
+}
+#par3 {
+  color: #85f485;
+  text-align: justify;
+}
+#par4 {
+  color: hsl(0, 100%, 50%);
+}
+#par5 {
+  color: fuchsia;
+  text-decoration: overline wavy blue;
+}

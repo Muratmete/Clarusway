@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  background-color: aquamarine;
+}
+
+#par1 {
+  background-color: coral;
+  width: 250px;
+  margin: auto;
+  /* padding: 20px; */
+}
+#par2 {
+  background-color: cornflowerblue;
+  /* margin-top: -80px; */
+}
+.container {
+  border: 2px solid red;
+}

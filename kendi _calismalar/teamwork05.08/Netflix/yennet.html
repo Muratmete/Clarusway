@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./netflix-icon.png" type="image/x-icon" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div id="container">
+        <div id="header">
+            <h1>NET<span>FLIX</span> </h1>
+            <p id="desc">
+              Thank you four the signing up to Netflix. Tell me more about yourself.
+            </p>
+        </div>
+        <form action="./result.html">
+            <div class="kimlik">
+                <label for="fname">isim</label>
+                <br />
+                <input type="text" name="isim" id="fname" />
+                <br />
+                <label id="age" for="age">Yaş</label>
+                <input type="number" name="yaş" id="age" />
+                <br />
+                <label for="mail">Mail Adresi</label>
+                <br />
+                <input type="email" name="eposta" id="mail" />
+                <br />
+          <div>
+          <div class="dil">
+                <label  for="ders"> Programlama Diller</label>
+                <br />
+                <select>
+                  <option value="c#">C#</option>
+                  <option value="PHP">PHP</option>
+                  <option value="Java">Java</option>
+                  <option value="Java">Java</option>
+                  <option value="Javascript">Javascript</option>
+                </select>
+          </div>
+          <div>
+            <p>Movie Type</p> <br>
+              <input type="checkbox" name="Comedy" id="m1">
+              <label for="m1">Comedy</label>
+              <br>
+              <input type="checkbox" name="Action" id="m2">
+              <label for="m2">Action</label>
+              <br>
+              <input type="checkbox" name="Romance" id="m3">
+              <label for="m3">Romance</label>
+              <br>
+              <input type="checkbox" name="Family" id="m4">
+              <label for="m4">Family</label>
+              <br>
+              <input type="checkbox" name="Kids" id="m5">
+               <label for="m5">Kids</label>
+
+          </div>
+      
+          <div>
+              <label  for="ders"> Gender</label>
+              <br>
+              <input type="checkbox" name="days" id="Monday" />Female
+              <br /><br />
+              <input type="checkbox" name="days" id="Tuesday" />Male
+              <br /><br />
+              <input type="checkbox" name="days" id="Wendesday" />Other
+          </div>
+          <div>
+            <p class="baslik">Any comment or suggestions?</p>
+            <textarea id="Söz" cols="15" rows="4">
+            Enter your comment here..Thanks for your kindness.
+            </textarea>
+          </div>
+
+          <div>
+            <input id="submit" style="" type="submit" value="Send" />
+          </div>
+        </form>
+
+
+    </div>
+  </body>
+</html>

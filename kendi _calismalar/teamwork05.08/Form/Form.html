@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .baslik {
+        font-size: 25px;
+      }
+      #alt_bas {
+        font-size: 30px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="font-size: 45px">Clarusway Survey Form</h1>
+    <p id="alt_bas">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form action="../../result.html" method="get">
+      <label class="baslik" for="fname">Name</label>
+      <br />
+      <input type="text" name="isim" id="fname" placeholder="Enter your name" />
+      <br />
+      <label class="baslik" for="sname">Soyisim</label>
+      <br />
+      <input
+        type="text"
+        name="soyisim"
+        id="sname"
+        placeholder="Enter your surname"
+      />
+      <br />
+      <label class="baslik" for="mail">Mail Adresi</label>
+      <br />
+      <input
+        type="email"
+        name="eposta"
+        id="mail"
+        placeholder="user@clarusway.com"
+      />
+      <br /><br />
+      <label class="baslik" for="ders">
+        Which option best describes your current role?</label
+      >
+      <br />
+      <select>
+        <option>Select current role</option>
+        <option value="Junior">Junior</option>
+        <option value="medium">medium</option>
+        <option value="mid-level">mid-level</option>
+        <option value="Senior">Senior</option>
+      </select>
+
+      <p class="baslik">Would you recommend Clarusway to a friend?</p>
+      <div>
+        <input type="radio" name="dene" id="tec1" checked />
+        <label for="tec1">Definetely, yes</label>
+        <br /><br />
+        <input type="radio" name="dene" id="tec2" />
+        <label for="tec1">Maybe</label>
+        <br /><br />
+        <input type="radio" name="dene" id="tec3" />
+        <label for="tec1">Not sure</label>
+        <br /><br />
+        <input type="radio" name="dene" id="tec4" />
+        <label for="tec1">Definitely, No</label>
+      </div>
+      <br />
+      <label class="baslik" for="ders">
+        What is your favorite feature of Clarusway?</label
+      >
+      <br /><br />
+      <select>
+        <option>Select an option</option>
+        <option value="Junior">Courses</option>
+        <option value="medium">Teachers</option>
+        <option value="mid-level">Schedule</option>
+        <option value="Senior">curriculum</option>
+      </select>
+      <div>
+        <p class="baslik">
+          What would you like to see improved? (Check all that apply)
+        </p>
+        <input type="checkbox" name="days" id="Monday" />Front-end Projects
+        <br /><br />
+        <input type="checkbox" name="days" id="Tuesday" />Back-end Projects
+        <br /><br />
+        <input type="checkbox" name="days" id="Wendesday" />Data science
+        <br /><br />
+        <input type="checkbox" name="days" id="Thursday" />Additional Courses
+        <br />
+      </div>
+
+      <p class="baslik">Any comment or suggestions?</p>
+      <textarea id="Söz" cols="15" rows="4">
+      Enter your comment here..Thanks for your kindness.
+      </textarea>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

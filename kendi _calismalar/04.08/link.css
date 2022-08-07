@@ -1,0 +1,19 @@
+body {
+  padding: 50px;
+}
+a {
+  border: 1px solid red;
+  padding: 5px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: darkgoldenrod;
+  border-radius: 25px;
+  font-size: 1.5rem;
+}
+a:hover {
+  background-color: aquamarine;
+  color: azure;
+}
+a:visited {
+  color: red;
+}

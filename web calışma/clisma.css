@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: url(https://static3.depositphotos.com/1004991/184/i/450/depositphotos_1846095-stock-photo-lake-and-forest.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.h1 {
+  border: 2px solid red;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
